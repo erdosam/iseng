@@ -179,7 +179,7 @@ int init() {
         printf("============\n");
         printf("1. Login\n");
         printf("2. Registrasi\n");
-        printf("0. Logout\n");
+        printf("0. Tutup applikasi\n");
         printf("Pilih menu : ");
         cin >> menu;
         if (menu == 1 && login() == 1) {
